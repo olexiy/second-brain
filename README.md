@@ -20,10 +20,8 @@ Run once. Answer 6 questions. Get a fully configured personal knowledge base tha
 ## Install
 
 ```bash
-claude plugins install gh:your-github-handle/second-brain
+claude plugins install gh:olexiy/second-brain
 ```
-
-Or manually: copy the `skills/` folder contents to `~/.claude/skills/`.
 
 ## Usage
 
