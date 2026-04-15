@@ -70,4 +70,6 @@ Your browser has 47 tabs open. Your brain is full. Claude Code helps you close t
 - [Obsidian](https://obsidian.md) (free)
 - [Claude Code](https://claude.ai/code)
 - Python (for yt-dlp, if you track videos)
-- kepano/obsidian-skills plugin (recommended)
+
+**Installed automatically during init:**
+- [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) — teaches Claude proper Obsidian markdown syntax

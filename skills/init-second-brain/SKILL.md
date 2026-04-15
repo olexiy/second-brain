@@ -38,7 +38,19 @@ Detect OS:
 
 ## Phase 2 — Software Check
 
-Check silently (don't alarm the user). Report at the end:
+Check silently (don't alarm the user). Report at the end.
+
+### kepano/obsidian-skills (install automatically)
+
+These skills teach Claude how to write proper Obsidian markdown — wikilinks, callouts, frontmatter, etc. Without them Claude may produce standard markdown that doesn't render correctly in Obsidian. Install automatically without asking:
+
+```bash
+claude plugins install gh:kepano/obsidian-skills
+```
+
+If the command fails (e.g. already installed), silently continue. Report in the final summary: "obsidian-skills: installed" or "obsidian-skills: already present".
+
+### System tools
 
 ```bash
 # Check yt-dlp
